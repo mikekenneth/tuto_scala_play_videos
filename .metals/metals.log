@@ -1,0 +1,584 @@
+2023.07.19 17:23:31 INFO  Started: Metals version 1.0.0 in folders '/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos' for client Visual Studio Code 1.80.1.[0m
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/.metals/metals (H2 2.1)
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.013s)
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 19, 2023 5:23:31 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.016s)
+2023.07.19 17:23:31 INFO  time: initialize in 0.45s[0m
+2023.07.19 17:23:33 WARN  Build server is not auto-connectable.[0m
+2023.07.19 17:23:33 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/Application.scala[0m
+2023.07.19 17:23:41 INFO  no build target found for /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/Application.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+2023.07.19 17:24:05 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals3960223601598873874/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.07.19 17:24:05 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/project/metals.sbt[0m
+2023.07.19 17:24:05 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/project/project/metals.sbt[0m
+2023.07.19 17:24:05 INFO  skipping build import with status 'Started'[0m
+2023.07.19 17:24:09 INFO  [info] Loading settings for project play-videos-build-build-build from metals.sbt ...[0m
+2023.07.19 17:24:09 INFO  [info] Loading project definition from /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/project/project/project[0m
+2023.07.19 17:24:09 INFO  [info] Updating ProjectRef(uri("file:/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/project/project/project/"), "play-videos-build-build-build")...[0m
+2023.07.19 17:24:10 ERROR [info] waiting for lock on /home/kenneth/.ivy2/.sbt.ivy.lock to be available...[0m
+2023.07.19 17:24:49 INFO  Shutting down server[0m
+2023.07.19 17:24:49 INFO  shutting down Metals[0m
+2023.07.19 17:24:49 INFO  Exiting server[0m
+2023.07.19 17:24:59 INFO  Started: Metals version 1.0.0 in folders '/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos' for client Visual Studio Code 1.80.1.[0m
+Jul 19, 2023 5:24:59 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 19, 2023 5:24:59 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 19, 2023 5:24:59 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 19, 2023 5:24:59 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/.metals/metals (H2 2.1)
+Jul 19, 2023 5:24:59 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.023s)
+Jul 19, 2023 5:24:59 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 19, 2023 5:24:59 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.19 17:24:59 INFO  time: initialize in 0.56s[0m
+2023.07.19 17:25:01 WARN  Build server is not auto-connectable.[0m
+2023.07.19 17:25:01 INFO  skipping build import with status 'Started'[0m
+2023.07.19 17:26:10 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/Application.scala[0m
+2023.07.19 17:26:12 INFO  no build target found for /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/Application.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+2023.07.19 17:26:14 INFO  time: code lens generation in 3.66s[0m
+2023.07.19 17:27:35 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/project/metals.sbt[0m
+Jul 19, 2023 5:27:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.07.19 17:28:24 INFO  Shutting down server[0m
+2023.07.19 17:28:24 INFO  shutting down Metals[0m
+2023.07.19 17:28:24 INFO  Exiting server[0m
+2023.07.19 17:38:14 INFO  Started: Metals version 1.0.0 in folders '/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos' for client Visual Studio Code 1.80.1.[0m
+Jul 19, 2023 5:38:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 19, 2023 5:38:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 19, 2023 5:38:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 19, 2023 5:38:15 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/.metals/metals (H2 2.1)
+Jul 19, 2023 5:38:15 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.020s)
+Jul 19, 2023 5:38:15 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 19, 2023 5:38:15 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.19 17:38:15 INFO  time: initialize in 0.53s[0m
+2023.07.19 17:38:17 WARN  Build server is not auto-connectable.[0m
+2023.07.19 17:38:17 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/Application.scala[0m
+2023.07.19 17:38:17 INFO  skipping build import with status 'Started'[0m
+2023.07.19 17:38:20 INFO  no build target found for /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/Application.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+2023.07.19 17:38:21 INFO  time: code lens generation in 3.6s[0m
+2023.07.19 17:38:21 INFO  time: code lens generation in 3.6s[0m
+2023.07.19 17:45:46 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/Application.scala[0m
+2023.07.19 17:45:56 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/src/main/scala/shared/SharedMessages.scala[0m
+2023.07.19 17:46:03 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/Application.scala[0m
+Jul 19, 2023 5:47:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 131
+2023.07.19 18:10:13 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals14438059165241502791/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.07.19 18:10:17 INFO  [info] Loading settings for project play-videos-build-build-build from metals.sbt ...[0m
+2023.07.19 18:10:17 INFO  [info] Loading project definition from /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/project/project/project[0m
+2023.07.19 18:10:19 INFO  [info] Loading settings for project play-videos-build-build from metals.sbt ...[0m
+2023.07.19 18:10:19 INFO  [info] Loading project definition from /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/project/project[0m
+2023.07.19 18:10:48 INFO  [info] downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/0.4.2/fastparse_2.12-0.4.2-sources.jar ...[0m
+2023.07.19 18:10:48 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.2.8/test-agent-1.2.8-sources.jar ...[0m
+2023.07.19 18:10:48 INFO  [info] downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/scalapb-runtime_2.12/0.6.0/scalapb-runtime_2.12-0.6.0-sources.jar ...[0m
+2023.07.19 18:10:48 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar ...[0m
+2023.07.19 18:10:48 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.2.8/actions_2.12-1.2.8-sources.jar ...[0m
+2023.07.19 18:10:48 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/util-scripted_2.12/1.2.4/util-scripted_2.12-1.2.4-sources.jar ...[0m
+2023.07.19 18:10:49 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.2.8!test-agent.jar(src) (5869ms)[0m
+2023.07.19 18:10:49 INFO  [info] 	[SUCCESSFUL ] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar(src) (7062ms)[0m
+2023.07.19 18:10:49 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#test-interface;1.0!test-interface.jar(src) (7147ms)[0m
+2023.07.19 18:10:49 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.2.8!actions_2.12.jar(src) (7131ms)[0m
+2023.07.19 18:10:49 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#util-scripted_2.12;1.2.4!util-scripted_2.12.jar(src) (7160ms)[0m
+2023.07.19 18:10:49 INFO  [info] 	[SUCCESSFUL ] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar(src) (6073ms)[0m
+2023.07.19 18:10:52 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.2.4/util-tracking_2.12-1.2.4-sources.jar ...[0m
+2023.07.19 18:10:52 INFO  [info] downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar ...[0m
+2023.07.19 18:10:52 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832-sources.jar ...[0m
+2023.07.19 18:10:52 INFO  [info] downloading https://repo1.maven.org/maven2/com/github/cb372/scalacache-caffeine_2.12/0.20.0/scalacache-caffeine_2.12-0.20.0-sources.jar ...[0m
+2023.07.19 18:10:52 INFO  [info] downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.2/sjson-new-core_2.12-0.8.2-sources.jar ...[0m
+2023.07.19 18:10:53 INFO  [info] 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src) (1523ms)[0m
+2023.07.19 18:10:53 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.2.4!util-tracking_2.12.jar(src) (1909ms)[0m
+2023.07.19 18:10:53 INFO  [info] 	[SUCCESSFUL ] com.github.cb372#scalacache-caffeine_2.12;0.20.0!scalacache-caffeine_2.12.jar(src) (1906ms)[0m
+2023.07.19 18:10:53 INFO  [info] 	[SUCCESSFUL ] com.eed3si9n#sjson-new-core_2.12;0.8.2!sjson-new-core_2.12.jar(src) (1955ms)[0m
+2023.07.19 18:10:53 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt.ivy#ivy;2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832!ivy.jar(src) (2313ms)[0m
+2023.07.19 18:10:53 INFO  [success] Generated .bloop/play-videos-build-build.json[0m
+2023.07.19 18:10:53 INFO  [success] Total time: 35 s, completed Jul 19, 2023, 6:10:54 PM[0m
+2023.07.19 18:10:54 INFO  [info] Loading settings for project play-videos-build from metals.sbt,plugins.sbt ...[0m
+2023.07.19 18:10:54 INFO  [info] Loading project definition from /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/project[0m
+2023.07.19 18:10:56 INFO  [success] Total time: 2 s, completed Jul 19, 2023, 6:10:56 PM[0m
+2023.07.19 18:10:56 INFO  [info] Loading settings for project play-videos from build.sbt ...[0m
+2023.07.19 18:10:58 INFO  [info] Set current project to play-videos (in build file:/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/)[0m
+2023.07.19 18:10:58 INFO  [info] Set current project to Play-Videos-Server (in build file:/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/)[0m
+2023.07.19 18:10:58 INFO  [info] Updating play-videos...[0m
+2023.07.19 18:10:58 INFO  [info] Done updating.[0m
+2023.07.19 18:10:58 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1-sources.jar ...[0m
+2023.07.19 18:10:58 INFO  [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.8/jackson-datatype-jsr310-2.9.8-sources.jar ...[0m
+2023.07.19 18:10:58 INFO  [info] downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar ...[0m
+2023.07.19 18:10:58 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.7.0/play-functional_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:10:58 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar ...[0m
+2023.07.19 18:10:58 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.7.0/play-json_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:00 INFO  [info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.9.8!jackson-datatype-jsr310.jar(src) (1577ms)[0m
+2023.07.19 18:11:00 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.7.0!play-json_2.12.jar(src) (1586ms)[0m
+2023.07.19 18:11:00 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.7.0!play-functional_2.12.jar(src) (1652ms)[0m
+2023.07.19 18:11:00 INFO  [info] 	[SUCCESSFUL ] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src) (1652ms)[0m
+2023.07.19 18:11:00 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.jar(src) (1652ms)[0m
+2023.07.19 18:11:00 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.8!scala-library.jar(src) (1699ms)[0m
+2023.07.19 18:11:00 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar ...[0m
+2023.07.19 18:11:00 INFO  [info] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar ...[0m
+2023.07.19 18:11:00 INFO  [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.8/jackson-datatype-jdk8-2.9.8-sources.jar ...[0m
+2023.07.19 18:11:00 INFO  [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8-sources.jar ...[0m
+2023.07.19 18:11:00 INFO  [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8-sources.jar ...[0m
+2023.07.19 18:11:00 INFO  [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8-sources.jar ...[0m
+2023.07.19 18:11:03 INFO  [info] 	[SUCCESSFUL ] joda-time#joda-time;2.10.1!joda-time.jar(src) (2853ms)[0m
+2023.07.19 18:11:03 INFO  [info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.jar(src) (2817ms)[0m
+2023.07.19 18:11:03 INFO  [info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.9.8!jackson-datatype-jdk8.jar(src) (2817ms)[0m
+2023.07.19 18:11:03 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src) (2883ms)[0m
+2023.07.19 18:11:03 INFO  [info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.9.8!jackson-databind.jar(src) (2839ms)[0m
+2023.07.19 18:11:03 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8-sources.jar ...[0m
+2023.07.19 18:11:03 INFO  [info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.9.8!jackson-annotations.jar(src) (2944ms)[0m
+2023.07.19 18:11:05 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src) (2081ms)[0m
+2023.07.19 18:11:05 INFO  [success] Generated .bloop/sharedJVM-test.json[0m
+2023.07.19 18:11:05 INFO  [success] Generated .bloop/sharedJVM.json[0m
+2023.07.19 18:11:05 INFO  [success] Generated .bloop/play-videos.json[0m
+2023.07.19 18:11:05 INFO  [success] Generated .bloop/play-videos-test.json[0m
+2023.07.19 18:11:05 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_sjs0.6_2.12/2.7.0/play-json_sjs0.6_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:05 INFO  [info] downloading https://repo1.maven.org/maven2/org/querki/jquery-facade_sjs0.6_2.12/1.2/jquery-facade_sjs0.6_2.12-1.2-sources.jar ...[0m
+2023.07.19 18:11:05 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_sjs0.6_2.12/0.1.1/scala-collection-compat_sjs0.6_2.12-0.1.1-sources.jar ...[0m
+2023.07.19 18:11:05 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_sjs0.6_2.12/2.7.0/play-functional_sjs0.6_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:05 INFO  [info] downloading https://repo1.maven.org/maven2/org/querki/querki-jsext_sjs0.6_2.12/0.8/querki-jsext_sjs0.6_2.12-0.8-sources.jar ...[0m
+2023.07.19 18:11:05 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.5/scalajs-dom_sjs0.6_2.12-0.9.5-sources.jar ...[0m
+2023.07.19 18:11:07 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-json_sjs0.6_2.12;2.7.0!play-json_sjs0.6_2.12.jar(src) (1181ms)[0m
+2023.07.19 18:11:07 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_sjs0.6_2.12;0.1.1!scala-collection-compat_sjs0.6_2.12.jar(src) (1181ms)[0m
+2023.07.19 18:11:07 INFO  [info] 	[SUCCESSFUL ] org.querki#querki-jsext_sjs0.6_2.12;0.8!querki-jsext_sjs0.6_2.12.jar(src) (1217ms)[0m
+2023.07.19 18:11:07 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_sjs0.6_2.12;2.7.0!play-functional_sjs0.6_2.12.jar(src) (1216ms)[0m
+2023.07.19 18:11:07 INFO  [info] 	[SUCCESSFUL ] org.querki#jquery-facade_sjs0.6_2.12;1.2!jquery-facade_sjs0.6_2.12.jar(src) (1315ms)[0m
+2023.07.19 18:11:07 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903-sources.jar ...[0m
+2023.07.19 18:11:07 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.26/scalajs-test-interface_2.12-0.6.26-sources.jar ...[0m
+2023.07.19 18:11:07 INFO  [info] 	[SUCCESSFUL ] org.scala-js#scalajs-dom_sjs0.6_2.12;0.9.5!scalajs-dom_sjs0.6_2.12.jar(src) (1456ms)[0m
+2023.07.19 18:11:07 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.12.8/0.6.26/scalajs-compiler_2.12.8-0.6.26-sources.jar ...[0m
+2023.07.19 18:11:07 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903-sources.jar ...[0m
+2023.07.19 18:11:07 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.26/scalajs-library_2.12-0.6.26-sources.jar ...[0m
+2023.07.19 18:11:07 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903-sources.jar ...[0m
+2023.07.19 18:11:08 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src) (1450ms)[0m
+2023.07.19 18:11:08 INFO  [info] 	[SUCCESSFUL ] org.scala-js#scalajs-compiler_2.12.8;0.6.26!scalajs-compiler_2.12.8.jar(src) (1490ms)[0m
+2023.07.19 18:11:08 INFO  [info] 	[SUCCESSFUL ] org.scala-js#scalajs-test-interface_2.12;0.6.26!scalajs-test-interface_2.12.jar(src) (1526ms)[0m
+2023.07.19 18:11:08 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar(src) (1396ms)[0m
+2023.07.19 18:11:08 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903-sources.jar ...[0m
+2023.07.19 18:11:08 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903-sources.jar ...[0m
+2023.07.19 18:11:08 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903-sources.jar ...[0m
+2023.07.19 18:11:08 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-sources.jar ...[0m
+2023.07.19 18:11:08 INFO  [info] 	[SUCCESSFUL ] org.scala-js#scalajs-library_2.12;0.6.26!scalajs-library_2.12.jar(src) (1769ms)[0m
+2023.07.19 18:11:08 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar(src) (1745ms)[0m
+2023.07.19 18:11:09 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar(src) (1103ms)[0m
+2023.07.19 18:11:09 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src) (1171ms)[0m
+2023.07.19 18:11:09 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar(src) (1226ms)[0m
+2023.07.19 18:11:09 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src) (1278ms)[0m
+2023.07.19 18:11:09 INFO  [success] Generated .bloop/client.json[0m
+2023.07.19 18:11:09 INFO  [success] Generated .bloop/client-test.json[0m
+2023.07.19 18:11:11 INFO  [info] downloading https://repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar ...[0m
+2023.07.19 18:11:11 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.0/filters-helpers_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:11 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.0/play-guice_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:11 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar ...[0m
+2023.07.19 18:11:11 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/27.0-jre/guava-27.0-jre-sources.jar ...[0m
+2023.07.19 18:11:11 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.0/play-akka-http-server_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:13 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-guice_2.12;2.7.0!play-guice_2.12.jar(src) (2271ms)[0m
+2023.07.19 18:11:13 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#filters-helpers_2.12;2.7.0!filters-helpers_2.12.jar(src) (2271ms)[0m
+2023.07.19 18:11:13 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-akka-http-server_2.12;2.7.0!play-akka-http-server_2.12.jar(src) (2412ms)[0m
+2023.07.19 18:11:13 INFO  [info] 	[SUCCESSFUL ] javax.activation#javax.activation-api;1.2.0!javax.activation-api.jar(src) (2412ms)[0m
+2023.07.19 18:11:13 INFO  [info] downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar ...[0m
+2023.07.19 18:11:13 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.0/scala-xml_2.12-1.1.0-sources.jar ...[0m
+2023.07.19 18:11:13 INFO  [info] 	[SUCCESSFUL ] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src) (2546ms)[0m
+2023.07.19 18:11:13 INFO  [info] 	[SUCCESSFUL ] com.google.guava#guava;27.0-jre!guava.jar(src) (2552ms)[0m
+2023.07.19 18:11:13 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1-sources.jar ...[0m
+2023.07.19 18:11:13 INFO  [info] downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar ...[0m
+2023.07.19 18:11:13 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.7.0/play_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:13 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0/failureaccess-1.0-sources.jar ...[0m
+2023.07.19 18:11:15 INFO  [info] 	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.25!jul-to-slf4j.jar(src) (2048ms)[0m
+2023.07.19 18:11:15 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.1.0!scala-xml_2.12.jar(src) (2049ms)[0m
+2023.07.19 18:11:15 INFO  [info] 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src) (1949ms)[0m
+2023.07.19 18:11:15 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src) (2082ms)[0m
+2023.07.19 18:11:15 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.0/build-link-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:15 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.9.0/scala-java8-compat_2.12-0.9.0-sources.jar ...[0m
+2023.07.19 18:11:15 INFO  [warn] 	Detected merged artifact: [FAILED     ] com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava!listenablefuture.jar(src):  (0ms).[0m
+2023.07.19 18:11:15 INFO  [warn] ==== local: tried[0m
+2023.07.19 18:11:15 INFO  [warn] ==== public: tried[0m
+2023.07.19 18:11:15 INFO  [info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar ...[0m
+2023.07.19 18:11:15 INFO  [info] 	[SUCCESSFUL ] com.google.guava#failureaccess;1.0!failureaccess.jar(src) (2138ms)[0m
+2023.07.19 18:11:15 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play_2.12;2.7.0!play_2.12.jar(src) (2712ms)[0m
+2023.07.19 18:11:17 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.0/twirl-api_2.12-1.4.0-sources.jar ...[0m
+2023.07.19 18:11:17 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.7/akka-http-core_2.12-10.1.7-sources.jar ...[0m
+2023.07.19 18:11:17 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.19/akka-stream_2.12-2.5.19-sources.jar ...[0m
+2023.07.19 18:11:19 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#build-link;2.7.0!build-link.jar(src) (3317ms)[0m
+2023.07.19 18:11:19 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.12;0.9.0!scala-java8-compat_2.12.jar(src) (3317ms)[0m
+2023.07.19 18:11:19 INFO  [info] downloading https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar ...[0m
+2023.07.19 18:11:19 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.0/play-streams_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:19 INFO  [info] 	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src) (3418ms)[0m
+2023.07.19 18:11:19 INFO  [info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-core_2.12;10.1.7!akka-http-core_2.12.jar(src) (3359ms)[0m
+2023.07.19 18:11:19 INFO  [info] downloading https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar ...[0m
+2023.07.19 18:11:19 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.12;1.4.0!twirl-api_2.12.jar(src) (3545ms)[0m
+2023.07.19 18:11:19 INFO  [info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.12;2.5.19!akka-stream_2.12.jar(src) (3067ms)[0m
+2023.07.19 18:11:19 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.0/play-exceptions-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:20 INFO  [info] downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar ...[0m
+2023.07.19 18:11:20 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.3.7/ssl-config-core_2.12-0.3.7-sources.jar ...[0m
+2023.07.19 18:11:20 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-streams_2.12;2.7.0!play-streams_2.12.jar(src) (1251ms)[0m
+2023.07.19 18:11:20 INFO  [info] downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar ...[0m
+2023.07.19 18:11:20 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-exceptions;2.7.0!play-exceptions.jar(src) (1407ms)[0m
+2023.07.19 18:11:20 INFO  [info] 	[SUCCESSFUL ] org.codehaus.mojo#animal-sniffer-annotations;1.17!animal-sniffer-annotations.jar(src) (1820ms)[0m
+2023.07.19 18:11:20 INFO  [info] 	[SUCCESSFUL ] io.jsonwebtoken#jjwt;0.9.1!jjwt.jar(src) (1674ms)[0m
+2023.07.19 18:11:20 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19-sources.jar ...[0m
+2023.07.19 18:11:20 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.19/akka-slf4j_2.12-2.5.19-sources.jar ...[0m
+2023.07.19 18:11:21 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar ...[0m
+2023.07.19 18:11:21 INFO  [info] 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.3.7!ssl-config-core_2.12.jar(src) (1639ms)[0m
+2023.07.19 18:11:22 INFO  [info] downloading https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2-sources.jar ...[0m
+2023.07.19 18:11:22 INFO  [info] 	[SUCCESSFUL ] javax.xml.bind#jaxb-api;2.3.1!jaxb-api.jar(src) (2638ms)[0m
+2023.07.19 18:11:22 INFO  [info] 	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.25!jcl-over-slf4j.jar(src) (2084ms)[0m
+2023.07.19 18:11:22 INFO  [info] downloading https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar ...[0m
+2023.07.19 18:11:22 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/inject/guice/4.2.2/guice-4.2.2-sources.jar ...[0m
+2023.07.19 18:11:22 INFO  [info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.19!akka-actor_2.12.jar(src) (1808ms)[0m
+2023.07.19 18:11:22 INFO  [info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.12;2.5.19!akka-slf4j_2.12.jar(src) (1847ms)[0m
+2023.07.19 18:11:22 INFO  [info] 	[SUCCESSFUL ] com.typesafe#config;1.3.3!config.jar(src) (1897ms)[0m
+2023.07.19 18:11:23 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.0/play-logback_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:23 INFO  [info] downloading https://repo1.maven.org/maven2/com/vmunier/scalajs-scripts_2.12/1.1.2/scalajs-scripts_2.12-1.1.2-sources.jar ...[0m
+2023.07.19 18:11:23 INFO  [info] downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar ...[0m
+2023.07.19 18:11:23 INFO  [info] 	[SUCCESSFUL ] org.checkerframework#checker-qual;2.5.2!checker-qual.jar(src) (2263ms)[0m
+2023.07.19 18:11:23 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.7/akka-parsing_2.12-10.1.7-sources.jar ...[0m
+2023.07.19 18:11:23 INFO  [info] 	[SUCCESSFUL ] javax.transaction#jta;1.1!jta.jar(src) (1407ms)[0m
+2023.07.19 18:11:23 INFO  [info] 	[SUCCESSFUL ] com.google.inject#guice;4.2.2!guice.jar(src) (1602ms)[0m
+2023.07.19 18:11:23 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.0/play-server_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:23 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.19/akka-protobuf_2.12-2.5.19-sources.jar ...[0m
+2023.07.19 18:11:23 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-logback_2.12;2.7.0!play-logback_2.12.jar(src) (1486ms)[0m
+2023.07.19 18:11:23 INFO  [info] 	[SUCCESSFUL ] aopalliance#aopalliance;1.0!aopalliance.jar(src) (1307ms)[0m
+2023.07.19 18:11:23 INFO  [info] 	[SUCCESSFUL ] com.vmunier#scalajs-scripts_2.12;1.1.2!scalajs-scripts_2.12.jar(src) (1595ms)[0m
+2023.07.19 18:11:24 INFO  [info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar ...[0m
+2023.07.19 18:11:24 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2-sources.jar ...[0m
+2023.07.19 18:11:24 INFO  [info] downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar ...[0m
+2023.07.19 18:11:24 INFO  [info] 	[SUCCESSFUL ] com.typesafe.akka#akka-parsing_2.12;10.1.7!akka-parsing_2.12.jar(src) (1203ms)[0m
+2023.07.19 18:11:24 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0-sources.jar ...[0m
+2023.07.19 18:11:24 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-server_2.12;2.7.0!play-server_2.12.jar(src) (1855ms)[0m
+2023.07.19 18:11:25 INFO  [info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.12;2.5.19!akka-protobuf_2.12.jar(src) (1934ms)[0m
+2023.07.19 18:11:25 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1-sources.jar ...[0m
+2023.07.19 18:11:25 INFO  [info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar ...[0m
+2023.07.19 18:11:25 INFO  [info] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.2.2!guice-assistedinject.jar(src) (1844ms)[0m
+2023.07.19 18:11:25 INFO  [info] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar(src) (1697ms)[0m
+2023.07.19 18:11:26 INFO  [info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8-sources.jar ...[0m
+2023.07.19 18:11:26 INFO  [info] downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.31.Final/netty-transport-native-epoll-4.1.31.Final-sources.jar ...[0m
+2023.07.19 18:11:26 INFO  [info] 	[SUCCESSFUL ] com.google.errorprone#error_prone_annotations;2.2.0!error_prone_annotations.jar(src) (2138ms)[0m
+2023.07.19 18:11:26 INFO  [info] 	[SUCCESSFUL ] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src) (2645ms)[0m
+2023.07.19 18:11:28 INFO  [info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar ...[0m
+2023.07.19 18:11:28 INFO  [info] downloading https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.13.Final/netty-codec-4.1.13.Final-sources.jar ...[0m
+2023.07.19 18:11:28 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.1.1!scala-xml_2.12.jar(src) (2808ms)[0m
+2023.07.19 18:11:28 INFO  [info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-api;3.141.59!selenium-api.jar(src) (2835ms)[0m
+2023.07.19 18:11:28 INFO  [info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar ...[0m
+2023.07.19 18:11:28 INFO  [info] downloading https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.31.Final/netty-resolver-4.1.31.Final-sources.jar ...[0m
+2023.07.19 18:11:28 INFO  [info] 	[SUCCESSFUL ] io.netty#netty-transport-native-epoll;4.1.31.Final!netty-transport-native-epoll.jar(src) (3201ms)[0m
+2023.07.19 18:11:28 INFO  [info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.8!commons-lang3.jar(src) (3343ms)[0m
+2023.07.19 18:11:29 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830-sources.jar ...[0m
+2023.07.19 18:11:29 INFO  [info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-sources.jar ...[0m
+2023.07.19 18:11:29 INFO  [info] 	[SUCCESSFUL ] org.apache.commons#commons-exec;1.3!commons-exec.jar(src) (2862ms)[0m
+2023.07.19 18:11:29 INFO  [info] 	[SUCCESSFUL ] io.netty#netty-codec;4.1.13.Final!netty-codec.jar(src) (3065ms)[0m
+2023.07.19 18:11:29 INFO  [info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.12/4.3.6/specs2-common_2.12-4.3.6-sources.jar ...[0m
+2023.07.19 18:11:29 INFO  [info] downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4-sources.jar ...[0m
+2023.07.19 18:11:29 INFO  [info] 	[SUCCESSFUL ] io.netty#netty-resolver;4.1.31.Final!netty-resolver.jar(src) (1502ms)[0m
+2023.07.19 18:11:29 INFO  [info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-remote-driver;3.141.59!selenium-remote-driver.jar(src) (1991ms)[0m
+2023.07.19 18:11:31 INFO  [info] downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.6/httpmime-4.5.6-sources.jar ...[0m
+2023.07.19 18:11:31 INFO  [info] downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.31.Final/netty-transport-native-unix-common-4.1.31.Final-sources.jar ...[0m
+2023.07.19 18:11:31 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;9.4.12.v20180830!jetty-io.jar(src) (1784ms)[0m
+2023.07.19 18:11:31 INFO  [info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-support;3.141.59!selenium-support.jar(src) (1795ms)[0m
+2023.07.19 18:11:31 INFO  [info] downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar ...[0m
+2023.07.19 18:11:31 INFO  [info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.12/4.3.6/specs2-core_2.12-4.3.6-sources.jar ...[0m
+2023.07.19 18:11:31 INFO  [info] 	[SUCCESSFUL ] org.specs2#specs2-common_2.12;4.3.6!specs2-common_2.12.jar(src) (1675ms)[0m
+2023.07.19 18:11:31 INFO  [info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59-sources.jar ...[0m
+2023.07.19 18:11:31 INFO  [info] 	[SUCCESSFUL ] org.mockito#mockito-core;2.23.4!mockito-core.jar(src) (1752ms)[0m
+2023.07.19 18:11:31 INFO  [info] 	[SUCCESSFUL ] io.netty#netty-transport-native-unix-common;4.1.31.Final!netty-transport-native-unix-common.jar(src) (1327ms)[0m
+2023.07.19 18:11:31 INFO  [info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpmime;4.5.6!httpmime.jar(src) (1690ms)[0m
+2023.07.19 18:11:31 INFO  [info] downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.33/htmlunit-core-js-2.33-sources.jar ...[0m
+2023.07.19 18:11:32 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830-sources.jar ...[0m
+2023.07.19 18:11:33 INFO  [info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.12/4.3.6/specs2-matcher_2.12-4.3.6-sources.jar ...[0m
+2023.07.19 18:11:33 INFO  [info] 	[SUCCESSFUL ] commons-logging#commons-logging;1.2!commons-logging.jar(src) (2394ms)[0m
+2023.07.19 18:11:33 INFO  [info] 	[SUCCESSFUL ] org.specs2#specs2-core_2.12;4.3.6!specs2-core_2.12.jar(src) (2693ms)[0m
+2023.07.19 18:11:33 INFO  [info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-firefox-driver;3.141.59!selenium-firefox-driver.jar(src) (2333ms)[0m
+2023.07.19 18:11:33 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830-sources.jar ...[0m
+2023.07.19 18:11:33 INFO  [info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.4/commons-text-1.4-sources.jar ...[0m
+2023.07.19 18:11:33 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.0/play-test_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:33 INFO  [info] 	[SUCCESSFUL ] net.sourceforge.htmlunit#htmlunit-core-js;2.33!htmlunit-core-js.jar(src) (2725ms)[0m
+2023.07.19 18:11:33 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-xml;9.4.12.v20180830!jetty-xml.jar(src) (2582ms)[0m
+2023.07.19 18:11:34 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.12/2.7.0/play-netty-server_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:34 INFO  [info] downloading https://repo1.maven.org/maven2/io/netty/netty-common/4.1.31.Final/netty-common-4.1.31.Final-sources.jar ...[0m
+2023.07.19 18:11:34 INFO  [info] 	[SUCCESSFUL ] org.specs2#specs2-matcher_2.12;4.3.6!specs2-matcher_2.12.jar(src) (2882ms)[0m
+2023.07.19 18:11:34 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;9.4.12.v20180830!jetty-util.jar(src) (1237ms)[0m
+2023.07.19 18:11:34 INFO  [info] downloading https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.31.Final/netty-buffer-4.1.31.Final-sources.jar ...[0m
+2023.07.19 18:11:34 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830-sources.jar ...[0m
+2023.07.19 18:11:34 INFO  [info] 	[SUCCESSFUL ] org.apache.commons#commons-text;1.4!commons-text.jar(src) (1602ms)[0m
+2023.07.19 18:11:34 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.12;2.7.0!play-test_2.12.jar(src) (1571ms)[0m
+2023.07.19 18:11:36 INFO  [info] downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-sources.jar ...[0m
+2023.07.19 18:11:36 INFO  [info] downloading https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.31.Final/netty-transport-4.1.31.Final-sources.jar ...[0m
+2023.07.19 18:11:36 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-server_2.12;2.7.0!play-netty-server_2.12.jar(src) (1880ms)[0m
+2023.07.19 18:11:36 INFO  [info] 	[SUCCESSFUL ] io.netty#netty-common;4.1.31.Final!netty-common.jar(src) (2119ms)[0m
+2023.07.19 18:11:36 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.0/netty-reactive-streams-2.0.0-sources.jar ...[0m
+2023.07.19 18:11:37 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.12.v20180830/jetty-client-9.4.12.v20180830-sources.jar ...[0m
+2023.07.19 18:11:37 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;9.4.12.v20180830!jetty-http.jar(src) (2978ms)[0m
+2023.07.19 18:11:37 INFO  [info] 	[SUCCESSFUL ] io.netty#netty-buffer;4.1.31.Final!netty-buffer.jar(src) (3517ms)[0m
+2023.07.19 18:11:37 INFO  [info] downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0-sources.jar ...[0m
+2023.07.19 18:11:37 INFO  [info] 	[SUCCESSFUL ] io.netty#netty-transport;4.1.31.Final!netty-transport.jar(src) (3218ms)[0m
+2023.07.19 18:11:37 INFO  [info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.12/4.3.6/specs2-fp_2.12-4.3.6-sources.jar ...[0m
+2023.07.19 18:11:37 INFO  [info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.4.10!httpcore.jar(src) (3375ms)[0m
+2023.07.19 18:11:38 INFO  [info] 	[SUCCESSFUL ] com.typesafe.netty#netty-reactive-streams;2.0.0!netty-reactive-streams.jar(src) (2510ms)[0m
+2023.07.19 18:11:38 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-client;9.4.12.v20180830!jetty-client.jar(src) (2375ms)[0m
+2023.07.19 18:11:38 INFO  [info] downloading https://repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6-sources.jar ...[0m
+2023.07.19 18:11:38 INFO  [info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-mock_2.12/4.3.6/specs2-mock_2.12-4.3.6-sources.jar ...[0m
+2023.07.19 18:11:38 INFO  [info] downloading https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1-sources.jar ...[0m
+2023.07.19 18:11:38 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.12.v20180830/websocket-api-9.4.12.v20180830-sources.jar ...[0m
+2023.07.19 18:11:41 INFO  [info] 	[SUCCESSFUL ] com.squareup.okio#okio;1.14.0!okio.jar(src) (3332ms)[0m
+2023.07.19 18:11:41 INFO  [info] downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar ...[0m
+2023.07.19 18:11:41 INFO  [info] 	[SUCCESSFUL ] org.specs2#specs2-mock_2.12;4.3.6!specs2-mock_2.12.jar(src) (3005ms)[0m
+2023.07.19 18:11:41 INFO  [info] 	[SUCCESSFUL ] org.fluentlenium#fluentlenium-core;3.7.1!fluentlenium-core.jar(src) (2781ms)[0m
+2023.07.19 18:11:41 INFO  [info] 	[SUCCESSFUL ] commons-net#commons-net;3.6!commons-net.jar(src) (2897ms)[0m
+2023.07.19 18:11:41 INFO  [info] 	[SUCCESSFUL ] org.specs2#specs2-fp_2.12;4.3.6!specs2-fp_2.12.jar(src) (3439ms)[0m
+2023.07.19 18:11:42 INFO  [info] downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3-sources.jar ...[0m
+2023.07.19 18:11:42 INFO  [info] downloading https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.13.Final/netty-handler-4.1.13.Final-sources.jar ...[0m
+2023.07.19 18:11:42 INFO  [info] downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar ...[0m
+2023.07.19 18:11:42 INFO  [info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-junit_2.12/4.3.6/specs2-junit_2.12-4.3.6-sources.jar ...[0m
+2023.07.19 18:11:42 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty.websocket#websocket-api;9.4.12.v20180830!websocket-api.jar(src) (3275ms)[0m
+2023.07.19 18:11:42 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-specs2_2.12/2.7.0/play-specs2_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:11:43 INFO  [info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.5.6!httpclient.jar(src) (2259ms)[0m
+2023.07.19 18:11:43 INFO  [info] 	[SUCCESSFUL ] net.bytebuddy#byte-buddy-agent;1.9.3!byte-buddy-agent.jar(src) (1956ms)[0m
+2023.07.19 18:11:43 INFO  [info] downloading https://repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-sources.jar ...[0m
+2023.07.19 18:11:43 INFO  [info] 	[SUCCESSFUL ] org.specs2#specs2-junit_2.12;4.3.6!specs2-junit_2.12.jar(src) (1944ms)[0m
+2023.07.19 18:11:43 INFO  [info] 	[SUCCESSFUL ] commons-codec#commons-codec;1.10!commons-codec.jar(src) (2090ms)[0m
+2023.07.19 18:11:43 INFO  [info] downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.2.0/htmlunit-cssparser-1.2.0-sources.jar ...[0m
+2023.07.19 18:11:43 INFO  [info] 	[SUCCESSFUL ] io.netty#netty-handler;4.1.13.Final!netty-handler.jar(src) (2273ms)[0m
+2023.07.19 18:11:43 INFO  [info] downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar ...[0m
+2023.07.19 18:11:43 INFO  [info] downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3-sources.jar ...[0m
+2023.07.19 18:11:43 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.0/netty-reactive-streams-http-2.0.0-sources.jar ...[0m
+2023.07.19 18:11:43 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-specs2_2.12;2.7.0!play-specs2_2.12.jar(src) (1842ms)[0m
+2023.07.19 18:11:46 INFO  [info] downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0-sources.jar ...[0m
+2023.07.19 18:11:46 INFO  [info] 	[SUCCESSFUL ] org.atteo.classindex#classindex;3.4!classindex.jar(src) (3289ms)[0m
+2023.07.19 18:11:49 INFO  [info] downloading https://repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar ...[0m
+2023.07.19 18:11:49 INFO  [info] 	[SUCCESSFUL ] net.sourceforge.htmlunit#htmlunit-cssparser;1.2.0!htmlunit-cssparser.jar(src) (5838ms)[0m
+2023.07.19 18:11:49 INFO  [info] 	[SUCCESSFUL ] junit#junit;4.12!junit.jar(src) (5796ms)[0m
+2023.07.19 18:11:49 INFO  [info] 	[SUCCESSFUL ] com.typesafe.netty#netty-reactive-streams-http;2.0.0!netty-reactive-streams-http.jar(src) (5722ms)[0m
+2023.07.19 18:11:49 INFO  [info] 	[SUCCESSFUL ] net.bytebuddy#byte-buddy;1.9.3!byte-buddy.jar(src) (5861ms)[0m
+2023.07.19 18:11:50 INFO  [info] downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0-sources.jar ...[0m
+2023.07.19 18:11:52 INFO  [info] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar ...[0m
+2023.07.19 18:11:52 INFO  [info] downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.33/htmlunit-2.33-sources.jar ...[0m
+2023.07.19 18:11:52 INFO  [info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar ...[0m
+2023.07.19 18:11:52 INFO  [info] 	[SUCCESSFUL ] xerces#xercesImpl;2.12.0!xercesImpl.jar(src) (9174ms)[0m
+2023.07.19 18:11:55 INFO  [info] downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-sources.jar ...[0m
+2023.07.19 18:11:55 INFO  [info] 	[SUCCESSFUL ] xalan#serializer;2.7.2!serializer.jar(src) (8595ms)[0m
+2023.07.19 18:11:55 INFO  [info] 	[SUCCESSFUL ] org.objenesis#objenesis;2.6!objenesis.jar(src) (6148ms)[0m
+2023.07.19 18:11:55 INFO  [info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src) (6143ms)[0m
+2023.07.19 18:11:55 INFO  [info] 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp;3.11.0!okhttp.jar(src) (6298ms)[0m
+2023.07.19 18:11:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.12.v20180830/websocket-common-9.4.12.v20180830-sources.jar ...[0m
+2023.07.19 18:11:56 INFO  [info] 	[SUCCESSFUL ] net.sourceforge.htmlunit#htmlunit;2.33!htmlunit.jar(src) (6837ms)[0m
+2023.07.19 18:11:56 INFO  [info] downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar ...[0m
+2023.07.19 18:11:56 INFO  [info] downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar ...[0m
+2023.07.19 18:11:56 INFO  [info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.33.3/htmlunit-driver-2.33.3-sources.jar ...[0m
+2023.07.19 18:11:56 INFO  [info] downloading https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.13.Final/netty-codec-http-4.1.13.Final-sources.jar ...[0m
+2023.07.19 18:11:56 INFO  [info] 	[SUCCESSFUL ] commons-io#commons-io;2.6!commons-io.jar(src) (3449ms)[0m
+2023.07.19 18:12:01 INFO  [info] downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar ...[0m
+2023.07.19 18:12:01 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty.websocket#websocket-common;9.4.12.v20180830!websocket-common.jar(src) (6312ms)[0m
+2023.07.19 18:12:01 INFO  [info] 	[SUCCESSFUL ] org.seleniumhq.selenium#htmlunit-driver;2.33.3!htmlunit-driver.jar(src) (6037ms)[0m
+2023.07.19 18:12:01 INFO  [info] 	[SUCCESSFUL ] xml-apis#xml-apis;1.4.01!xml-apis.jar(src) (6040ms)[0m
+2023.07.19 18:12:01 INFO  [info] downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.33/neko-htmlunit-2.33-sources.jar ...[0m
+2023.07.19 18:12:01 INFO  [info] 	[SUCCESSFUL ] io.netty#netty-codec-http;4.1.13.Final!netty-codec-http.jar(src) (5619ms)[0m
+2023.07.19 18:12:01 INFO  [info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.12.v20180830/websocket-client-9.4.12.v20180830-sources.jar ...[0m
+2023.07.19 18:12:01 INFO  [info] 	[SUCCESSFUL ] xalan#xalan;2.7.2!xalan.jar(src) (6271ms)[0m
+2023.07.19 18:12:01 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.12/2.7.0/play-docs_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:12:01 INFO  [info] downloading https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar ...[0m
+2023.07.19 18:12:01 INFO  [info] 	[SUCCESSFUL ] com.novocode#junit-interface;0.11!junit-interface.jar(src) (5371ms)[0m
+2023.07.19 18:12:02 INFO  [info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar ...[0m
+2023.07.19 18:12:02 INFO  [info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar ...[0m
+2023.07.19 18:12:05 INFO  [info] 	[SUCCESSFUL ] net.sourceforge.htmlunit#neko-htmlunit;2.33!neko-htmlunit.jar(src) (4156ms)[0m
+2023.07.19 18:12:05 INFO  [info] 	[SUCCESSFUL ] org.eclipse.jetty.websocket#websocket-client;9.4.12.v20180830!websocket-client.jar(src) (4005ms)[0m
+2023.07.19 18:12:05 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.12;2.7.0!play-docs_2.12.jar(src) (4286ms)[0m
+2023.07.19 18:12:05 INFO  [info] 	[SUCCESSFUL ] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src) (4366ms)[0m
+2023.07.19 18:12:05 INFO  [info] downloading https://repo1.maven.org/maven2/org/pegdown/pegdown/1.6.0/pegdown-1.6.0-sources.jar ...[0m
+2023.07.19 18:12:05 INFO  [info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar ...[0m
+2023.07.19 18:12:05 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.12/2.7.0/play-omnidoc_2.12-2.7.0-sources.jar ...[0m
+2023.07.19 18:12:05 INFO  [info] 	[SUCCESSFUL ] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src) (4400ms)[0m
+2023.07.19 18:12:07 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.12/2.0.0/play-doc_2.12-2.0.0-sources.jar ...[0m
+2023.07.19 18:12:07 INFO  [info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3-sources.jar ...[0m
+2023.07.19 18:12:07 INFO  [info] 	[SUCCESSFUL ] org.ow2.asm#asm;5.0.3!asm.jar(src) (5727ms)[0m
+2023.07.19 18:12:08 INFO  [info] downloading https://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.7/parboiled-java-1.1.7-sources.jar ...[0m
+2023.07.19 18:12:08 INFO  [info] 	[SUCCESSFUL ] org.pegdown#pegdown;1.6.0!pegdown.jar(src) (2985ms)[0m
+2023.07.19 18:12:08 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-omnidoc_2.12;2.7.0!play-omnidoc_2.12.jar(src) (2918ms)[0m
+2023.07.19 18:12:08 INFO  [info] 	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src) (3208ms)[0m
+2023.07.19 18:12:08 INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-doc_2.12;2.0.0!play-doc_2.12.jar(src) (2873ms)[0m
+2023.07.19 18:12:08 INFO  [info] 	[SUCCESSFUL ] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src) (2993ms)[0m
+2023.07.19 18:12:08 INFO  [info] 	[SUCCESSFUL ] org.parboiled#parboiled-java;1.1.7!parboiled-java.jar(src) (1624ms)[0m
+2023.07.19 18:12:08 INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::[0m
+2023.07.19 18:12:08 INFO  [warn] 	::              FAILED DOWNLOADS            ::[0m
+2023.07.19 18:12:08 INFO  [warn] 	:: ^ see resolution messages for details  ^ ::[0m
+2023.07.19 18:12:08 INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::[0m
+2023.07.19 18:12:08 INFO  [warn] 	:: com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava!listenablefuture.jar(src)[0m
+2023.07.19 18:12:08 INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::[0m
+2023.07.19 18:12:08 INFO  [success] Generated .bloop/server.json[0m
+2023.07.19 18:12:08 INFO  [success] Generated .bloop/server-test.json[0m
+2023.07.19 18:12:08 INFO  [success] Generated .bloop/sharedJS.json[0m
+2023.07.19 18:12:08 INFO  [success] Generated .bloop/sharedJS-test.json[0m
+2023.07.19 18:12:09 INFO  [success] Total time: 71 s, completed Jul 19, 2023, 6:12:09 PM[0m
+2023.07.19 18:12:10 INFO  time: ran 'sbt bloopInstall' in 1m56s[0m
+2023.07.19 18:12:10 INFO  Attempting to connect to the build server...[0m
+2023.07.19 18:12:10 INFO  Setting up current java home /usr/lib/jvm/java-11-openjdk-amd64 in /home/kenneth/.bloop/bloop.json[0m
+2023.07.19 18:12:48 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/TaskList1.scala[0m
+2023.07.19 18:13:05 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/TaskList2.scala[0m
+2023.07.19 18:13:11 ERROR Starting the bsp launcher for bloop...[0m
+2023.07.19 18:13:11 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5162220422994316303/bsp.socket'...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR error: Giving up on waiting for a connection, printing embedded bloop logs:[0m
+2023.07.19 18:13:11 ERROR > No server running at 127.0.0.1:8212, let's fire one...[0m
+2023.07.19 18:13:11 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.8...[0m
+2023.07.19 18:13:11 ERROR error: Trying a tcp-based connection to the server instead...[0m
+2023.07.19 18:13:11 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 33255'...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR Waiting for the bsp connection to come up...[0m
+2023.07.19 18:13:11 ERROR error: Giving up on waiting for a connection, printing embedded bloop logs:[0m
+2023.07.19 18:13:11 ERROR > No server running at 127.0.0.1:8212, let's fire one...[0m
+2023.07.19 18:13:11 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.8...[0m
+2023.07.19 18:13:11 ERROR error: The launcher failed to establish a bsp connection, aborting...[0m
+2023.07.19 18:13:12 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+Jul 19, 2023 6:13:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.07.19 18:14:53 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/Application.scala[0m
+2023.07.19 18:14:53 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/Application.scala[0m
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.10/scalafmt-core_2.13-3.7.10.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.10/scalafmt-core_2.13-3.7.10.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.10/scalafmt-config_2.13-3.7.10.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.5/scalameta_2.13-4.8.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.10/scalafmt-sysops_2.13-3.7.10.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.10/scalafmt-config_2.13-3.7.10.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.10/scalafmt-sysops_2.13-3.7.10.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.5/scalameta_2.13-4.8.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.5/parsers_2.13-4.8.5.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.5/parsers_2.13-4.8.5.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.5/trees_2.13-4.8.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.5/trees_2.13-4.8.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.5/common_2.13-4.8.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.5/common_2.13-4.8.5.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.5/scalameta_2.13-4.8.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.5/parsers_2.13-4.8.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.10/scalafmt-sysops_2.13-3.7.10.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.5/trees_2.13-4.8.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.10/scalafmt-core_2.13-3.7.10.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.10/scalafmt-config_2.13-3.7.10.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.10/scalafmt-config_2.13-3.7.10.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.5/common_2.13-4.8.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.10/scalafmt-sysops_2.13-3.7.10.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.5/parsers_2.13-4.8.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.5/scalameta_2.13-4.8.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.10/scalafmt-core_2.13-3.7.10.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.5/common_2.13-4.8.5.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.5/trees_2.13-4.8.5.jar (98.41 %, 6242304 / 6343360)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.5/trees_2.13-4.8.5.jar
+2023.07.19 18:16:27 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/TaskList1.scala[0m
+2023.07.19 18:18:40 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/TaskList1.scala[0m
+2023.07.19 18:18:41 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/TaskList1.scala[0m
+2023.07.19 18:18:41 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/TaskList1.scala[0m
+Jul 19, 2023 6:18:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 521
+2023.07.19 18:19:42 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/TaskList1.scala[0m
+2023.07.20 10:08:16 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/views/taskList1.scala[0m
+2023.07.20 10:11:39 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/TaskList1.scala[0m
+2023.07.20 10:14:20 WARN  no build target for: /home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/server/app/controllers/TaskList1.scala[0m
+2023.07.20 10:21:20 INFO  Shutting down server[0m
+2023.07.20 10:21:20 INFO  shutting down Metals[0m
+2023.07.20 10:21:20 INFO  Exiting server[0m

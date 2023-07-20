@@ -1,0 +1,237 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "sharedJS",
+        "directory": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/.js",
+        "workspaceDir": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos",
+        "sources": [
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/.js/src/main/scala-2.12",
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/.js/src/main/scala",
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/.js/src/main/java",
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/src/main/scala-2.12",
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/src/main/scala",
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/.js/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/kenneth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar",
+            "/home/kenneth/.ivy2/cache/org.scala-js/scalajs-library_2.12/jars/scalajs-library_2.12-0.6.26.jar",
+            "/home/kenneth/.ivy2/cache/com.typesafe.play/play-json_sjs0.6_2.12/jars/play-json_sjs0.6_2.12-2.7.0.jar",
+            "/home/kenneth/.ivy2/cache/com.typesafe.play/play-functional_sjs0.6_2.12/jars/play-functional_sjs0.6_2.12-2.7.0.jar",
+            "/home/kenneth/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar",
+            "/home/kenneth/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar",
+            "/home/kenneth/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_sjs0.6_2.12/jars/scala-collection-compat_sjs0.6_2.12-0.1.1.jar"
+        ],
+        "out": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/.bloop/sharedJS",
+        "classesDir": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/.bloop/sharedJS/scala-2.12/classes",
+        "resources": [
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/.js/src/main/resources",
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/.js/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.8",
+            "options": [
+                "-Xplugin:/home/kenneth/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.8/jars/scalajs-compiler_2.12.8-0.6.26.jar"
+            ],
+            "jars": [
+                "/home/kenneth/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.8.jar",
+                "/home/kenneth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar",
+                "/home/kenneth/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar",
+                "/home/kenneth/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar",
+                "/home/kenneth/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar"
+            ],
+            "analysis": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/shared/.js/target/streams/compile/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "js",
+            "config": {
+                "version": "0.6.26",
+                "mode": "debug",
+                "kind": "none",
+                "emitSourceMaps": false,
+                "jsdom": false,
+                "toolchain": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.8",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/kenneth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/kenneth/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-library_2.12",
+                    "version": "0.6.26",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-library_2.12",
+                            "path": "/home/kenneth/.ivy2/cache/org.scala-js/scalajs-library_2.12/jars/scalajs-library_2.12-0.6.26.jar"
+                        },
+                        {
+                            "name": "scalajs-library_2.12",
+                            "classifier": "sources",
+                            "path": "/home/kenneth/.ivy2/cache/org.scala-js/scalajs-library_2.12/srcs/scalajs-library_2.12-0.6.26-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-json_sjs0.6_2.12",
+                    "version": "2.7.0",
+                    "artifacts": [
+                        {
+                            "name": "play-json_sjs0.6_2.12",
+                            "path": "/home/kenneth/.ivy2/cache/com.typesafe.play/play-json_sjs0.6_2.12/jars/play-json_sjs0.6_2.12-2.7.0.jar"
+                        },
+                        {
+                            "name": "play-json_sjs0.6_2.12",
+                            "classifier": "sources",
+                            "path": "/home/kenneth/.ivy2/cache/com.typesafe.play/play-json_sjs0.6_2.12/srcs/play-json_sjs0.6_2.12-2.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-functional_sjs0.6_2.12",
+                    "version": "2.7.0",
+                    "artifacts": [
+                        {
+                            "name": "play-functional_sjs0.6_2.12",
+                            "path": "/home/kenneth/.ivy2/cache/com.typesafe.play/play-functional_sjs0.6_2.12/jars/play-functional_sjs0.6_2.12-2.7.0.jar"
+                        },
+                        {
+                            "name": "play-functional_sjs0.6_2.12",
+                            "classifier": "sources",
+                            "path": "/home/kenneth/.ivy2/cache/com.typesafe.play/play-functional_sjs0.6_2.12/srcs/play-functional_sjs0.6_2.12-2.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.8",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/kenneth/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/kenneth/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "macro-compat_2.12",
+                    "version": "1.1.1",
+                    "artifacts": [
+                        {
+                            "name": "macro-compat_2.12",
+                            "path": "/home/kenneth/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar"
+                        },
+                        {
+                            "name": "macro-compat_2.12",
+                            "classifier": "sources",
+                            "path": "/home/kenneth/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_sjs0.6_2.12",
+                    "version": "0.1.1",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_sjs0.6_2.12",
+                            "path": "/home/kenneth/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_sjs0.6_2.12/jars/scala-collection-compat_sjs0.6_2.12-0.1.1.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_sjs0.6_2.12",
+                            "classifier": "sources",
+                            "path": "/home/kenneth/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_sjs0.6_2.12/srcs/scala-collection-compat_sjs0.6_2.12-0.1.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

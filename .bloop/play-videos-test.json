@@ -1,0 +1,133 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "play-videos-test",
+        "directory": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos",
+        "workspaceDir": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos",
+        "sources": [
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/src/test/scala-2.12",
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/src/test/scala",
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/src/test/java",
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "play-videos",
+            "sharedJS-test",
+            "sharedJVM-test",
+            "client-test",
+            "server-test"
+        ],
+        "classpath": [
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/.bloop/play-videos/scala-2.12/classes",
+            "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
+        ],
+        "out": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/.bloop/play-videos",
+        "classesDir": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/.bloop/play-videos/scala-2.12/test-classes",
+        "resources": [
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/src/test/resources",
+            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.7",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-compiler.jar",
+                "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-reflect.jar",
+                "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-library.jar",
+                "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-xml_2.12-1.0.6.jar"
+            ],
+            "analysis": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/target/streams/test/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "options": [
+                    "-Duser.dir=/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.7",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/kenneth/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
