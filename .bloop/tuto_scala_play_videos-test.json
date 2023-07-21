@@ -1,29 +1,31 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "play-videos",
-        "directory": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos",
-        "workspaceDir": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos",
+        "name": "tuto_scala_play_videos-test",
+        "directory": "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos",
+        "workspaceDir": "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos",
         "sources": [
-            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/src/main/scala-2.12",
-            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/src/main/scala",
-            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/src/main/java",
-            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/target/scala-2.12/src_managed/main"
+            "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos/src/test/scala-2.12",
+            "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos/src/test/scala",
+            "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos/src/test/java",
+            "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos/target/scala-2.12/src_managed/test"
         ],
         "dependencies": [
-            "sharedJS",
-            "sharedJVM",
-            "client",
-            "server"
+            "tuto_scala_play_videos",
+            "sharedJS-test",
+            "sharedJVM-test",
+            "client-test",
+            "server-test"
         ],
         "classpath": [
-            "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
+            "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos/.bloop/tuto_scala_play_videos/scala-2.12/classes",
+            "/home/mike/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
         ],
-        "out": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/.bloop/play-videos",
-        "classesDir": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/.bloop/play-videos/scala-2.12/classes",
+        "out": "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos/.bloop/tuto_scala_play_videos",
+        "classesDir": "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos/.bloop/tuto_scala_play_videos/scala-2.12/test-classes",
         "resources": [
-            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/src/main/resources",
-            "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/target/scala-2.12/resource_managed/main"
+            "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos/src/test/resources",
+            "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos/target/scala-2.12/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -33,12 +35,12 @@
                 
             ],
             "jars": [
-                "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-compiler.jar",
-                "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-reflect.jar",
-                "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-library.jar",
-                "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-xml_2.12-1.0.6.jar"
+                "/home/mike/.sbt/boot/scala-2.12.7/lib/scala-xml_2.12-1.0.6.jar",
+                "/home/mike/.sbt/boot/scala-2.12.7/lib/scala-reflect.jar",
+                "/home/mike/.sbt/boot/scala-2.12.7/lib/scala-library.jar",
+                "/home/mike/.sbt/boot/scala-2.12.7/lib/scala-compiler.jar"
             ],
-            "analysis": "/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos/target/streams/compile/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip",
+            "analysis": "/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos/target/streams/test/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -97,7 +99,7 @@
             "config": {
                 "home": "/usr/lib/jvm/java-11-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/home/kenneth/tutorials/scala/playframework/mark_lewis_tutorial/Play-Videos"
+                    "-Duser.dir=/home/mike/Projects/tutorials/scala/playframework/tuto_scala_play_videos"
                 ]
             },
             "mainClass": [
@@ -113,19 +115,19 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/kenneth/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
+                            "path": "/home/mike/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/kenneth/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar"
+                            "path": "/home/mike/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar"
                         }
                     ]
                 }
             ]
         },
         "tags": [
-            "library"
+            "test"
         ]
     }
 }

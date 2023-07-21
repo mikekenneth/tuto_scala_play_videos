@@ -15,6 +15,7 @@ GET     /validateGet1       controllers.TaskList1.validateLoginGet(username, pas
 POST    /createUser1        controllers.TaskList1.createUser()
 + nocsrf
 POST    /validatePost1      controllers.TaskList1.validateLoginPost
+POST    /validateForm1      controllers.TaskList1.validateLoginForm
 
 GET     /taskList1          controllers.TaskList1.taskList
 POST    /addTask1           controllers.TaskList1.addTask
@@ -25,6 +26,11 @@ POST    /deleteTask1        controllers.TaskList1.deleteTask
 GET     /productArgs        controllers.Application.product(prodType: String, prodNum: Int)
 GET     /product/:prodType/:prodNum        controllers.Application.product(prodType: String, prodNum: Int)
 GET     /productRE/$prodType<[a-z]{2}\d\d>/:prodNum controllers.Application.product(prodType: String, prodNum: Int)
+
+
+# Routes for WebSocket Chat Application
+GET     /chat               controllers.WebSocketChat.index
+GET     /chatSocket         controllers.WebSocketChat.socket
 
 # Prefix must match `play.assets.urlPrefix`
 GET        /assets/*file                 controllers.Assets.at(file)
